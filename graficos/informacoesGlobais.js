@@ -6,7 +6,7 @@ async function vizualizarInformacoesGlobais() {
 
     const pessoasMundo = (dados.total_pessoas_mundo/1e9)
     const trabalhadoresMundo = (dados.total_trabalhadores_mundo/1e9)
-    const tempoDeslTrabalho = parseInt(dados.tempo_medio_deslocamento_para_trabalho)
+    const tempoDeslTrabalho = parseInt(dados.tempo_medio_deslocamento_para_trabalho*10)
     
 
     const paragrafo = document.createElement('p')
